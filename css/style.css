@@ -1,9 +1,10 @@
 /** @format */
 
 body {
-	background-image: url("../img/photo-2.jpg");
+	font-family: "Roboto", sans-serif;
+	background-image: url("../img/photo.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center right;
 
 	background-size: cover;
 	height: 100vh;
@@ -32,7 +33,7 @@ body {
 
 .modal-box {
 	width: 300px;
-	min-height: 800px;
+	min-height: 1000px;
 	background-color: #4b779b;
 	border-radius: 4px;
 	position: absolute;
@@ -52,9 +53,16 @@ body {
 }
 
 .modal-box img {
-	max-width: 100%;
+	width: 100%;
 	max-height: 100%;
 	object-fit: cover;
+}
+
+.nickname {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.17;
 }
 
 @media screen and (min-width: 768px) {
@@ -66,5 +74,21 @@ body {
 @media screen and (min-width: 1200px) {
 	.container {
 		min-width: 1200px;
+	}
+
+	.modal-box {
+		width: 400px;
+	}
+	.nickname {
+		margin: 0;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 2.4;
+	}
+
+	.album-name {
+		margin-top: 2px;
+		letter-spacing: 0.06em;
+		box-shadow: #34b;
 	}
 }
