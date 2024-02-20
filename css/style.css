@@ -28,7 +28,7 @@ body {
 
 .modal-box {
 	width: 300px;
-	min-height: 800px;
+	min-height: 750px;
 	background-color: #4b779b;
 	border-radius: 4px;
 	position: absolute;
@@ -56,10 +56,16 @@ body {
 
 .nickname {
 	margin: 0;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 700;
-	line-height: 1.17;
-	padding-left: 16px;
+	line-height: 2.4;
+}
+
+.album-name {
+	margin-top: 2px;
+	letter-spacing: 0.06em;
+
+	box-shadow: #34b;
 }
 
 .block {
@@ -67,6 +73,17 @@ body {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	gap: 20px;
+}
+
+.picture-streaming {
+	width: 20px;
+	fill: rgb(27, 25, 25);
+}
+
+.picture-streaming:hover,
+.pictrue-streaming:focus {
+	fill: brown;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,6 +105,7 @@ body {
 		font-size: 24px;
 		font-weight: 700;
 		line-height: 2.4;
+		padding-left: 16px;
 	}
 
 	.album-name {
