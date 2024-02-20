@@ -73,11 +73,10 @@ body {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap: 20px;
+	gap: 40px;
 }
 
 .picture-streaming {
-	width: 20px;
 	fill: rgb(27, 25, 25);
 }
 
